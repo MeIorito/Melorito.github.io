@@ -95,6 +95,17 @@ html {
   padding-bottom: 10px;
 }
 
+#medButton {
+  background-color: #5b1b95;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: #e0aaff;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  text-decoration:none;
+  padding-bottom: 10px;
+}
+
 #longButton {
   background-color: #5b1b95;
   border-radius: 15px;
