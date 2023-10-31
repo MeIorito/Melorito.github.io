@@ -1,6 +1,7 @@
 // Constants
 const clientId = 'b9a4a0c074d24ae4bbc211be3a3b9e9c';
-const redirectUri = 'https://meiorito.github.io/Melorito.github.io/';
+// const redirectUri = 'http://localhost:5173/';
+const redirectUri = 'https://meiorito.github.io/Melorito.github.io/'
 
 // Generate a random code verifier
 let codeVerifier = generateRandomString(128);

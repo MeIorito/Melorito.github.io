@@ -49,7 +49,7 @@ html {
 
 /*CSS for firts part*/
 #firstPart {
-  background-image: url('img\background1.svg');
+  background-image: url('https://Melorito.github.io/img/background1.svg');
   background-size: cover;
 }
 
@@ -182,7 +182,7 @@ html {
 
 /*CSS for second part*/
 #secondPart {
-  background-image: url('img\background2.1.svg');
+  background-image: url('https://Melorito.github.io/img/background2.1.svg');
   background-size: cover;
 }
 
@@ -197,7 +197,7 @@ html {
 
 /*CSS for third part*/
 #thirdPart {
-  background-image: url('img\background3.svg');
+  background-image: url('https://Melorito.github.io/img/background3.svg');
   background-size: cover;
 }
 
@@ -267,7 +267,7 @@ html {
 
 /*CSS for fourth part*/
 #fourthPart {
-  background-image: url('img\background2.1.svg');
+  background-image: url('https://Melorito.github.io/img/background2.1.svg');
   background-size: cover;
 }
 
@@ -281,7 +281,7 @@ html {
 
 /*CSS for fifth part*/
 #fifthPart {
-  background-image: url('img\background1.svg');
+  background-image: url('https://Melorito.github.io/img/background1.svg');
   background-size: cover;
 }
 
