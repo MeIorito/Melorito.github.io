@@ -1,6 +1,6 @@
 // Constants
 const clientId = 'b9a4a0c074d24ae4bbc211be3a3b9e9c';
-const redirectUri = 'http://localhost:5173/';
+const redirectUri = 'https://meiorito.github.io/Melorito.github.io/';
 
 // Generate a random code verifier
 let codeVerifier = generateRandomString(128);
@@ -43,8 +43,8 @@ function authenticateUser(body) {
     getSongs('short_term');
     getArtists('medium_term');
     getSongs('medium_term');
-    // getArtists('short_term');
-    // getSongs('short_term');
+    getArtists('long_term');
+    getSongs('long_term');
   })
   .catch(handleError);
 }
@@ -130,7 +130,10 @@ function handleError(error) {
 // Function to populate UI with user data
 function populateUIUser(data) {
   const name = data.display_name;
+  const profileImage = data.images[0].url;
   document.getElementById('welcomeWithName').textContent = `Hi ${name}! Welcome to sreeaf!`;
+  var imgElement = document.querySelector('.profilePic');
+  imgElement.src = profileImage;
 }
 
 // Function to populate UI with artists' data

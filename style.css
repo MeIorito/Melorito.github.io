@@ -16,6 +16,7 @@ html {
   height: auto;
 }
 
+
 #navBar {
   display: flex;
   align-items: center;
@@ -69,8 +70,9 @@ html {
 #welcome p {
   text-align: center;
   color: #e0aaff;
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 #buttons {
@@ -78,11 +80,12 @@ html {
 }
 
 #buttons a:hover{
-  background-color: #5b1b95;
+  color: white;
   box-shadow: 0 0 20px #e0aaff;
 }
 
 #shortButton {
+  background-color: #5b1b95;
   border-radius: 15px;
   padding: 10px 20px;
   color: #e0aaff;
@@ -93,6 +96,7 @@ html {
 }
 
 #longButton {
+  background-color: #5b1b95;
   border-radius: 15px;
   padding: 10px 20px;
   color: #e0aaff;
@@ -172,6 +176,10 @@ html {
   transition-duration: 0.5s;
 }
 
+#genres_short_term p:hover{
+  transform: scale(1.15);
+}
+
 /*CSS for second part*/
 #secondPart {
   background-image: url('img\background2.1.svg');
@@ -182,7 +190,7 @@ html {
 #secondPart #spacing {
   padding-top: 150px;
   padding-bottom: 150px;
-  font-size: 45px;
+  font-size: 30px;
   color: #e0aaff;
   text-align: center;
 }
@@ -242,7 +250,7 @@ html {
   padding-top: 30px;
 }
 
-#artistSectionLong {
+#artistSectionMed {
   padding-bottom: 300px;
 }
 
@@ -257,6 +265,97 @@ html {
   transition-duration: 0.5s;
 }
 
-
-
 /*CSS for fourth part*/
+#fourthPart {
+  background-image: url('img\background2.1.svg');
+  background-size: cover;
+}
+
+#fourthPart #spacing {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 30px;
+  color: #e0aaff;
+  text-align: center;
+}
+
+/*CSS for fifth part*/
+#fifthPart {
+  background-image: url('img\background1.svg');
+  background-size: cover;
+}
+
+#statsLong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 350px;
+}
+
+#statsLong h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #e0aaff;
+  padding-bottom: 50px;
+}
+
+#statsLong ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-bottom: 175px;
+}
+
+#statsLong li {
+  padding-right: 30px;
+}
+
+#statsLong li {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition-duration: 0.5s;
+}
+
+#statsLong li img {
+  border-radius: 30px;
+  filter: blur(2px);
+  transition-duration: 0.5s;
+}
+
+#statsLong li img:hover {
+  transform: scale(1.15);
+  filter: blur(0px);
+  box-shadow: 0 0 20px #e0aaff;
+}
+
+#statsLong p {
+  font-size: 20px;
+  color: #e0aaff;
+  padding-top: 30px;
+}
+
+#artistSectionLong {
+  padding-bottom: 300px;
+}
+
+#songSection {
+  padding-bottom: 200px;
+}
+
+#genreSection {
+  padding-bottom: 200px;
+}
+
+#genres_long_term p{
+  filter: blur(0px);
+  font-weight: 700;
+  font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+#genres_long_term p:hover{
+  transform: scale(1.15);
+}
