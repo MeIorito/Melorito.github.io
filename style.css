@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+#navBar {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navBar li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right: 15px;
+}
+
+#navBar li a{
+  text-decoration: none;
+  border-radius: 15px;
+  display: block;
+  padding: 14px 16px; 
+  transition-duration: 0.5s;
+}
+
+#navBar li a:hover {
+  background-color: #5b1b95;
+  box-shadow: 0 0 20px #e0aaff;
+}
+
+/*CSS for firts part*/
+#firstPart {
+  background-image: url('img\background1.svg');
+  background-size: cover;
+}
+
+#welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px
+  
+}
+
+#welcome h1 {
+  font-size: 45px;
+  color: #e0aaff;
+}
+
+#welcome p {
+  text-align: center;
+  color: #e0aaff;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#buttons {
+  padding-top: 20px;
+}
+
+#buttons a:hover{
+  background-color: #5b1b95;
+  box-shadow: 0 0 20px #e0aaff;
+}
+
+#shortButton {
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: #e0aaff;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  text-decoration:none;
+  padding-bottom: 10px;
+}
+
+#longButton {
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: #e0aaff;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  text-decoration:none
+}
+
+#statsShort {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 350px;
+}
+
+#statsShort h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #e0aaff;
+  padding-bottom: 50px;
+}
+
+#statsShort ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-bottom: 175px;
+}
+
+#statsShort li {
+  padding-right: 30px;
+}
+
+#statsShort li {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition-duration: 0.5s;
+}
+
+#statsShort li img {
+  border-radius: 30px;
+  filter: blur(2px);
+  transition-duration: 0.5s;
+}
+
+#statsShort li img:hover {
+  transform: scale(1.15);
+  filter: blur(0px);
+  box-shadow: 0 0 20px #e0aaff;
+}
+
+#statsShort p {
+  font-size: 20px;
+  color: #e0aaff;
+  padding-top: 30px;
+}
+
+#artistSectionShort {
+  padding-bottom: 300px;
+}
+
+#songSection {
+  padding-bottom: 200px;
+}
+
+#genreSection {
+  padding-bottom: 200px;
+}
+
+#genres_short_term p{
+  filter: blur(0px);
+  font-weight: 700;
+  font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+/*CSS for second part*/
+#secondPart {
+  background-image: url('img\background2.1.svg');
+  background-size: cover;
+}
+
+
+#secondPart #spacing {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 45px;
+  color: #e0aaff;
+  text-align: center;
+}
+
+/*CSS for third part*/
+#thirdPart {
+  background-image: url('img\background3.svg');
+  background-size: cover;
+}
+
+#statsMed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 350px;
+}
+
+#statsMed h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #e0aaff;
+  padding-bottom: 50px;
+}
+
+#statsMed ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-bottom: 175px;
+}
+
+#statsMed li {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+  align-items: center;
+  transition-duration: 0.5s;
+}
+
+#statsMed li img {
+  border-radius: 30px;
+  filter: blur(2px);
+  transition-duration: 0.5s;
+}
+
+#statsMed li img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 20px #e0aaff;
+  filter: blur(0px);
+}
+
+#statsMed p {
+  font-size: 20px;
+  color: #e0aaff;
+  padding-top: 30px;
+}
+
+#artistSectionLong {
+  padding-bottom: 300px;
+}
+
+#songSection {
+  padding-bottom: 200px;
+}
+
+#genres_medium_term p{
+  filter: blur(0px);
+  font-weight: 700;
+  font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+
+
+/*CSS for fourth part*/
