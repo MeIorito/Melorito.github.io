@@ -16,7 +16,6 @@ html {
   height: auto;
 }
 
-
 #navBar {
   display: flex;
   align-items: center;
@@ -162,6 +161,10 @@ html {
   box-shadow: 0 0 20px #e0aaff;
 }
 
+#statsShort li .spotifyLogo {
+  filter: none;
+}
+
 #statsShort p {
   font-size: 20px;
   color: #e0aaff;
@@ -255,6 +258,10 @@ html {
   filter: blur(0px);
 }
 
+#statsMed li .spotifyLogo {
+  filter: none;
+}
+
 #statsMed p {
   font-size: 20px;
   color: #e0aaff;
@@ -340,6 +347,10 @@ html {
   transform: scale(1.15);
   filter: blur(0px);
   box-shadow: 0 0 20px #e0aaff;
+}
+
+#statsLong li .spotifyLogo {
+  filter: none;
 }
 
 #statsLong p {

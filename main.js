@@ -168,8 +168,12 @@ function populateUIList(names, images, listId, urls) {
     linkElement.appendChild(imageElement);
     const itemName = document.createElement('p');
     itemName.textContent = truncateText(names[index], 25);
+    const spotifyLogo = new Image(25, 25);
+    spotifyLogo.src = 'img/spotifyLogo.png';
+    spotifyLogo.classList.add('spotifyLogo');
     listItem.appendChild(linkElement);
     listItem.appendChild(itemName);
+    listItem.appendChild(spotifyLogo);
     list.appendChild(listItem);
   });
 }
