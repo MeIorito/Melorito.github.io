@@ -4,10 +4,10 @@ MyTunes Explorer is a web application that allows you to discover and explore yo
 
 ## Features
 1. Personalized Insights
-Get personalized insights into your top artists and songs based on your listening history. MyTunes Explorer analyzes your music data to provide you with a detailed overview of your favorite artists and tracks.
+Get personalized insights into your top artists and songs based on your listening history. MyTunes Explorer analyzes your music data to provide you with a detailed overview of your favorite artists, tracks and genres.
 
 2. Visual Representation
-Explore your music preferences through intuitive and visually appealing charts and graphs. Our application presents your top artists and songs in a way that is easy to understand and visually engaging.
+Explore your music preferences through an easy to understand and visually engaging UI.
 
 3. Time Trends
 Track how your music taste evolves over time. MyTunes Explorer offers features that allow you to see trends in your listening habits, including changes in your top genres and artists.
